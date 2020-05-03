@@ -22,7 +22,7 @@ int main()
 {
   cout<<"enter the original string : ";
   string s; cin>>s;
-  cout<<"\nenter the string you want to check for his index in the original : ";
+  cout<<"enter the wanted string : ";
   string sub; cin>>sub;
   for(auto i:stringindex(s,sub))
   {
